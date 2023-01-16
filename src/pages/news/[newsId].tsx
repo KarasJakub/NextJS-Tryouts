@@ -1,5 +1,11 @@
-const DetailPage = () => {
-  return <h1>Detail Page</h1>;
-};
+import { useRouter } from "next/router"
 
-export default DetailPage;
+const DetailPage = () => {
+  const router = useRouter()
+
+  router.query.newsId
+
+  return <h1>DetailPage</h1>
+}
+
+export default DetailPage

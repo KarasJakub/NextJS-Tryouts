@@ -1,5 +1,17 @@
-const NewsPage = () => {
-  return <h1>News Page!</h1>;
-};
+import Link from "next/link"
 
-export default NewsPage;
+const NewsPage = () => {
+  return (
+    <>
+      <h1>Detail Page</h1>
+      <ul>
+        <li>
+          <Link href="/news/hello">Hello</Link>
+        </li>
+        <li>Fuck wordpress</li>
+      </ul>
+    </>
+  )
+}
+
+export default NewsPage
