@@ -8,7 +8,6 @@ const NewsPage = () => {
         <li>
           <Link href="/news/hello">Hello</Link>
         </li>
-        <li>Fuck wordpress</li>
       </ul>
     </>
   )
